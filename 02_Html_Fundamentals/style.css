@@ -6,6 +6,13 @@ p,
 li {
   font-family: sans-serif;
 }
+
+h1,
+h2,
+h3 {
+  color: #93c5a8;
+}
+
 h1 {
   font-size: 26px;
   font-style: italic;
@@ -43,4 +50,13 @@ li {
 .related-author {
   font-size: 14px;
   font-weight: bold;
+}
+
+.main-header {
+  background-color: rgb(253, 255, 219);
+}
+
+aside {
+  border-top: 5px solid #a8f1c0;
+  border-bottom: 5px solid #a8f1c0;
 }
