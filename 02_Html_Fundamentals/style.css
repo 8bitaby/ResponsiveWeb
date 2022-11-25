@@ -53,10 +53,25 @@ li {
 }
 
 .main-header {
-  background-color: rgb(253, 255, 219);
+  background-color: rgb(255, 234, 166);
 }
 
 aside {
   border-top: 5px solid #a8f1c0;
   border-bottom: 5px solid #a8f1c0;
+}
+
+a:link {
+  color: #93c5a8;
+  text-decoration: none;
+}
+a:visited {
+  color: #93c5a8;
+}
+a:hover {
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+}
+a:active {
+  font-style: italic;
 }
