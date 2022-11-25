@@ -37,3 +37,10 @@ li {
 #footer {
   font-size: 12px;
 }
+.related {
+  list-style: none;
+}
+.related-author {
+  font-size: 14px;
+  font-weight: bold;
+}
