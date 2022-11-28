@@ -13,12 +13,14 @@ h3 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 40px;
   font-style: italic;
   text-transform: uppercase;
 }
 h2 {
   font-size: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 30px;
@@ -34,6 +36,10 @@ p {
 }
 li {
   font-size: 20px;
+  padding-bottom: 10px;
+}
+li:last-child {
+  padding-bottom: 0;
 }
 
 #author {
@@ -52,13 +58,18 @@ li {
 }
 
 .main-header {
-  background-color: rgb(255, 234, 166);
+  background-color: rgb(235, 255, 230);
   padding: 20px 40px;
+  padding-left: 0;
+  margin-bottom: 30px;
 }
 
 aside {
   border-top: 5px solid #a8f1c0;
   border-bottom: 5px solid #a8f1c0;
+  background-color: rgb(248, 252, 220);
+  padding: 50px 0px;
+  width: auto;
 }
 
 a:link {
@@ -74,4 +85,24 @@ a:hover {
 }
 a:active {
   font-style: italic;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+}
+
+.post-img {
+  width: 700px;
+  height: auto;
+}
+
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-bar {
+  padding-top: 20px;
+  padding-left: 0;
 }
