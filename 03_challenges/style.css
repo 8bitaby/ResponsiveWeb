@@ -1,0 +1,43 @@
+body {
+  border: 3px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  line-height: 1.3;
+}
+.main-header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: bisque;
+}
+.sub-text {
+  text-transform: uppercase;
+  font-size: small;
+  color: #777;
+}
+.list-heading {
+  text-transform: uppercase;
+}
+.list {
+  list-style: square;
+}
+.add-cart {
+}
+button {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
