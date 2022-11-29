@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  position: relative;
 }
 h1,
 h2,
@@ -105,4 +106,12 @@ ol {
 .nav-bar {
   padding-top: 20px;
   padding-left: 0;
+}
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  cursor: pointer;
+  bottom: 50px;
+  right: 50px;
 }
