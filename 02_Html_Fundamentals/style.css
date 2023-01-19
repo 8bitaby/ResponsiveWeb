@@ -73,9 +73,9 @@ li:last-child {
 
 .main-header {
   background-color: rgb(235, 255, 230);
-  padding: 20px 40px;
-  padding-left: 0;
-  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 aside {
