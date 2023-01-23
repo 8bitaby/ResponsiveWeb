@@ -10,7 +10,7 @@
         background-color: blueviolet;
       }
       .el--2 {
-        background-color: orangered;
+        background-color: rgb(255, 98, 40);
       }
       .el--3 {
         background-color: green;
@@ -38,11 +38,16 @@
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
-
+        display: grid;
         /* CSS GRID */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
       }
 
       .container--2 {
+        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
