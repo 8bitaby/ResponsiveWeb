@@ -12,50 +12,110 @@
       rel="stylesheet"
     />
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       html {
         font-family: "Rubik", sans-serif;
         color: #444;
+        line-height: 1;
+      }
+      /* Utility class  */
+      .container {
+        margin: 0 auto;
+        width: 1000px;
+      }
+      .container-header {
+        width: 1000px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .container-inner {
+        width: 50%;
+      }
+
+      header {
+        position: relative;
+        color: #fff;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        margin-bottom: 48px;
       }
       nav {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
         display: flex;
         justify-content: space-between;
+        padding-top: 32px;
       }
       h1 {
-        font-size: 32px;
+        font-size: 48px;
         margin-bottom: 32px;
       }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 32px;
+      }
+
       p {
         font-size: 20px;
         line-height: 1.5;
         margin-bottom: 48px;
       }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 9px;
+        padding: 16px 32px;
+        margin-bottom: 32px;
+      }
     </style>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="container">
         <div>LOGO</div>
         <div>NAVIGATION</div>
       </nav>
-      <div>
-        <h1>A healthy meal delivered to your door, every single day</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo,
-          delectus rem molestiae consectetur nesciunt dolorem doloribus sint
-        </p>
-        <a href="#" class="btn"> Start eating well</a>
+      <div class="container-header">
+        <div class="container-inner">
+          <h1>A healthy meal delivered to your door, every single day</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            nemo, delectus rem molestiae consectetur nesciunt dolorem doloribus
+            sint Lorem, ipsum dolor sit amet consectetur adipisicing.
+          </p>
+          <a href="#" class="btn"> Start eating well</a>
+        </div>
       </div>
     </header>
     <section>
-      <div>
-        <h1>Some randon heading</h1>
+      <div class="container">
+        <h2>Some randon heading</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quo
           vitae voluptatem eveniet ab, aliquam sint ipsam fugiat inventore iusto
           facilis quibusdam excepturi. Rem voluptas minima voluptates voluptatum
-          beatae! Recusandae.
+          beatae! Recusandae. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Modi ratione repellendus odio voluptatem cum porro iure ipsum
+          distinctio, nostrum necessitatibus, commodi praesentium labore
+          expedita blanditiis! Molestiae voluptatem mollitia impedit quas!
         </p>
       </div>
     </section>
